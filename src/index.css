@@ -9,7 +9,17 @@
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #ffffff;
+  max-width: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  
+  
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 
 *{
   font-family: 'Poppins', sans-serif;

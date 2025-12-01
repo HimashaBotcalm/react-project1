@@ -1,22 +1,28 @@
-import Subscription from './components/Subscription.jsx'
+import Subscription from './section/Subscription.jsx'
 import Footer from './components/Footer.jsx'
-import Card from './components/Card.jsx'
+import Card from './section/Card.jsx'
 import Features from './components/Features.jsx'
-import Hero from './components/Hero.jsx'
+import Hero from './section/Hero.jsx'
 import Navbar from './components/Navbar.jsx'
 import './index.css'
 
 function App() {
   return (
     <>
-    <div>
-      <Navbar />
-      <Hero />
-      <Features />
-      <Card />
-      <Subscription />
-      <Footer />
-    </div>
+    
+      
+     <Navbar /> 
+    
+      <Hero /> 
+        
+     <Features /> 
+  
+      <Card />  
+     
+      <Subscription />  
+       
+      <Footer />  
+    
     </>
     
   )
@@ -24,3 +30,4 @@ function App() {
 
 
 export default App
+
